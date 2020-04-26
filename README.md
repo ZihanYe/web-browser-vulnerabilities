@@ -1,5 +1,10 @@
 # web-browser-vulnerabilities
 
+Steps for building old versions of Firefox: [:link:](Firefox/)
+
+Steps for building old versions of Chrome:
+
+
 This is a list of vulnerabilities that is reproducible in old versions of Firefox :point_down:
 
 | CVE ID  | Version | Type | Exploited? | Link|
@@ -18,9 +23,7 @@ This is a list of vulnerabilities that is reproducible in old versions of Firefo
 
 Vulnerabilities in Chrome:
 
-Steps for building old versions of Firefox: [:link:](Firefox/)
 
-Steps for building old versions of Chrome:
-
+Useful links:
 
 Happy Hacking :trollface:
