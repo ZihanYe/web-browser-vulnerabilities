@@ -1,0 +1,12 @@
+mk_add_options MOZ_OBJDIR=@TOPSRCDIR@/objdir-ff-dbg
+
+ac_add_options --disable-crashreporter
+ac_add_options --disable-elf-hack
+
+# Settings for an opt build
+# ac_add_options --enable-optimize="-g -O2"
+# ac_add_options --disable-debug
+
+# Settings for a debug build
+ac_add_options --disable-optimize
+ac_add_options --enable-debug
