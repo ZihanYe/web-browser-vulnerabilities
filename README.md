@@ -26,9 +26,17 @@ This is a list of vulnerabilities that is reproducible in old versions of Firefo
 | CVE-2019-9813 | < 66.0.1 | type confusion | |[:link:](Firefox/CVE-2019-9813)|
 | CVE-2019-11707 | < 66.0.3 | type confusion | Yes |[:link:](Firefox/CVE-2019-11707)|
 
+Others to be verified: :point_right: [:link:](Firefox/others/)
+
 
 Vulnerabilities in Chrome:
 
+| CVE ID  | Version | Type | Exploited? | Link|
+| ---| --- | ---| ---| --- |
+| CVE-2018-6060 | 62.0.3202.75 | UAF | | [:link:](Chrome/CVE-2018-6060)
+| CVE-2018-6123 | 68.0.3404.0 | UAF | | [:link:](Chrome/CVE-2018-6123)
+| CVE-2019-5786 | 72.0.3626.119 | UAF | | [:link:](Chrome/CVE-2019-5786)
+| CVE-2019-5808 | 74.0.3728.0 | UAF | | [:link:](Chrome/CVE-2019-5808)
 
 Useful links:
 
