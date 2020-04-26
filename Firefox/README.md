@@ -1,7 +1,12 @@
 # Reproducing Firefox vulnerabilities
 
 [Getting the code](#getting-the-code)
-
+[Configuration](#configuration)
+[Build](#build)
+[Troubleshooting during build](#troubleshooting_during_build)
+[Make JS Shell](#make_js_shell_optional)
+[Hack](#hack)
+[Run](#run)
 
 OS: Ubuntu 64-bit
 
