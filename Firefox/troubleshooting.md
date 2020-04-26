@@ -113,3 +113,11 @@ I have run into many errors especially when trying to build older versions of Fi
   ```sudo apt-get install -y nodejs```
 
 ***
+
+11. Firefox 56 and 59 crashes at startup with:
+
+> Assertion failure: false, at /home/user/firefox/security/sandbox/linux/SandboxInfo.cpp:174
+
+[Bug report](https://bugzilla.mozilla.org/show_bug.cgi?id=1430756)
+
+Change according to the [fix](https://hg.mozilla.org/mozilla-central/rev/22ce3b9ca9af)
