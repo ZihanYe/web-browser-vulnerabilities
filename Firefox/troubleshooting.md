@@ -11,6 +11,7 @@ I have run into many errors especially when trying to build older versions of Fi
   sudo apt-get install -y libgconf2-dev
 ```
 
+***
 
 2. **configure error with sed 4.3: sed: character class syntax is [[:space:]], not [:space:]**
 
@@ -18,12 +19,15 @@ I have run into many errors especially when trying to build older versions of Fi
   
   - modify manually according to https://bugzilla.mozilla.org/attachment.cgi?id=8825307&action=diff
 
+***
 
 3. **anything with rustc/cargo version:**
 
   It is likely because we are using newer version of rustc now and we need to downgrade it.
   
-  - Find rustc version used at the time of the older version (https://wiki.mozilla.org/Rust_Update_Policy_for_Firefox)
+  - Find rustc version used at the time of the older version in [Firefox's Rust Update policy](https://wiki.mozilla.org/Rust_Update_Policy_for_Firefox)
+
+  **Either:**
   
   - run ```$ ~/.cargo/bin/rustup self uninstall```
   
@@ -39,9 +43,16 @@ I have run into many errors especially when trying to build older versions of Fi
          1) Proceed with installation (default)
     ```
     
+  **or** 
+  - install rustup and
+
+  - ```rustup default <version>```
+
     For Firefox 57.0, I had to downgrade rustc to 1.19.0.
     
     For Firefox 63.0.3, I had to downgrade rustc to 1.28.0.
+
+***
     
 4. **ASAN build reports gcc compilation error:**
 
@@ -51,6 +62,7 @@ I have run into many errors especially when trying to build older versions of Fi
   
   Basically add `-U_FORTIFY_SOURCE` to CFLAGS and CXXFLAGS in mozconfig
   
+***
 
 5. **Compiler error: undefined reference to dlsym**
 
@@ -58,13 +70,15 @@ I have run into many errors especially when trying to build older versions of Fi
   
   add `-Wl,--no-as-needed -ldl` to LDFLAGS in mozconfig
   
-  
+***
+
 6. During a build with option ---enable-fuzzing, I got **gtest error**
   
    ```Firefox fatal error: gtest/gtest.h: No such file or directory```
    
    I fixed this by adding option --enable-tests
  
+***
  
 7. During a build with option --enable-fuzzing, I got **error in TestCodeGenBinding**
   
@@ -73,18 +87,21 @@ I have run into many errors especially when trying to build older versions of Fi
    https://bugzilla.mozilla.org/show_bug.cgi?id=1293516 mentions this error.
    
    I fixed it with running ```./mach clobber``` and rebuild.
- 
+
+*** 
  
 8. **Llvm-config: checking for llvm-config... not found**
 
   install llvm-config, check if it exists in /usr/bin/
   Add to mozconfig a line: ```export LLVM_CONFIG=“/usr/bin/llvm-config”```
 
+***
 
 9. **clang**
 
   Sudo apt install clang
 
+***
 
 10. **nodejs version not new enough**
 
@@ -94,3 +111,5 @@ I have run into many errors especially when trying to build older versions of Fi
   ```https://deb.nodesource.com/setup_8.x | sudo -E bash -```
   
   ```sudo apt-get install -y nodejs```
+
+***
