@@ -22,7 +22,8 @@ hg update -r <revision>
 
 
 ## Configuration
-    - normal debug build:
+
+### normal debug build:
     ```
           echo "# for debug" > mozconfig
           echo "ac_add_options --disable-optimize" >> mozconfig
@@ -30,7 +31,7 @@ hg update -r <revision>
     ```
     	an example mozconfig :point_right: [:link:](mozconfig_dbg)
 
-    - ASAN build:
+### ASAN build:
         see https://developer.mozilla.org/en-US/docs/Mozilla/Testing/Firefox_and_Address_Sanitizer
 
         an example mozconfig :point_right: [:link:](mozconfig)
@@ -39,9 +40,12 @@ hg update -r <revision>
     export MOZCONFIG=/path/to/your/mozconfig
     ```
 
-## 3. Build
+## Build
    ```
           ./mach bootstrap
           ./mach build
    ```
    
+## Troubleshooting
+
+:point_right: [:link:](troubleshooting.md)
