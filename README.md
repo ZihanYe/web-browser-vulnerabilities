@@ -85,7 +85,7 @@ Vulnerabilities in Chrome :point_down:
 
 ### Exploitation writeups
 
-- [CVE-20120469: UAF](http://web.archive.org/web/20150121031623/http://www.vupen.com/blog/20120625.Advanced_Exploitation_of_Mozilla_Firefox_UaF_CVE-2012-0469.php)
+- [CVE-2012-0469: UAF](http://web.archive.org/web/20150121031623/http://www.vupen.com/blog/20120625.Advanced_Exploitation_of_Mozilla_Firefox_UaF_CVE-2012-0469.php)
 
 - [CVE-2016-9066: cross-map overflow](https://saelo.github.io/posts/firefox-script-loader-overflow.html)
 
@@ -108,5 +108,22 @@ Vulnerabilities in Chrome :point_down:
 - [CVE-2019-11707: Type confusion](https://blog.bi0s.in/2019/08/18/Pwn/Browser-Exploitation/cve-2019-11707-writeup/)
 
 
+## Chrome
+
+### General
+
+- [Build configuration](https://gitlab.com/noencoding/OS-X-Chromium-with-proprietary-codecs/-/wikis/List-of-all-gn-arguments-for-Chromium-build)
+
+- [List of command line options](https://peter.sh/experiments/chromium-command-line-switches/)
+
+- [How Blink works](https://docs.google.com/document/d/1aitSOucL0VHZa9Z2vbRJSyAIsAz24kX8LFByQ5xQnUg/edit?pli=1#)
+
+- [Allocator](https://chromium.googlesource.com/chromium/src/base/+show/master/allocator/README.md)
+
+- [Debugging in Linux](https://chromium.googlesource.com/chromium/src/+/81c0fc6d4/docs/linux_debugging.md)
+
+### Exploitation writeup
+
+- [CVE-2019-5786](https://www.mcafee.com/blogs/other-blogs/mcafee-labs/analysis-of-a-chrome-zero-day-cve-2019-5786/)
 
 Happy Hacking :trollface:
