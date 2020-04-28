@@ -1,8 +1,8 @@
 # web-browser-vulnerabilities
 
-## Steps for building old versions of Firefox: [:link:](Firefox/)
+Steps for building old versions of Firefox: [:link:](Firefox/)
 
-## Steps for building old versions of Chrome:
+Steps for building old versions of Chrome:
 
 
 ## Firefox vulnerabilities
