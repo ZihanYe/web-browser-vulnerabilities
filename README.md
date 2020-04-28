@@ -43,11 +43,23 @@ Vulnerabilities in Chrome :point_down:
 
 ## Useful links:
 
+## General:
+
+- [Good place for searching CVEs](https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=firefox)
+
+- [List of Javascript Engine vulnerabilities](https://github.com/tunz/js-vuln-db)
+
+- [Exploitation DB](https://www.exploit-db.com/)
+
+- [Awesome-browser-exploit](https://github.com/Escapingbug/awesome-browser-exploit)
+
 ## Firefox:
 
 ### Basic
 
 - [Build configuration](https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Configuring_Build_Options)
+
+- [Build with Address Sanitizer](https://firefox-source-docs.mozilla.org/tools/sanitizer/asan.html)
 
 - [Hacking tips](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey/Hacking_Tips)
 
@@ -65,9 +77,35 @@ Vulnerabilities in Chrome :point_down:
 
 - [Introduction to Spidermonkey exploitation](https://doar-e.github.io/blog/2018/11/19/introduction-to-spidermonkey-exploitation/)
 
+- [Heap manipulation](https://www.usenix.org/legacy/event/woot08/tech/full_papers/daniel/daniel_html/index.html)
+
+- [Spraying the Heap (Chapter 2: Use-After-Free) – Finding a needle in a Haystack](https://www.fuzzysecurity.com/tutorials/expDev/11.html)
+
+- [Heap spray](https://www.corelan.be/index.php/2013/02/19/deps-precise-heap-spray-on-firefox-and-ie10/)
+
 ### Exploitation writeups
+
+- [CVE-20120469: UAF](http://web.archive.org/web/20150121031623/http://www.vupen.com/blog/20120625.Advanced_Exploitation_of_Mozilla_Firefox_UaF_CVE-2012-0469.php)
+
 - [CVE-2016-9066: cross-map overflow](https://saelo.github.io/posts/firefox-script-loader-overflow.html)
 
+- [CVE-2016-9079: UAF](https://dangokyo.me/2018/07/29/analysis-on-cve-2016-9079/)
+
+- [CVE-2016-1960: UAF exploitation](https://www.exploit-db.com/exploits/42484)
+
+- [CVE-2017-5375: JIT spray RCE](https://www.exploit-db.com/exploits/44293)
+
+- [CVE-2017-5375: JIT spray writeup](https://rh0dev.github.io/blog/2017/the-return-of-the-jit/)
+
+- [CVE-2018-18500: UAF](https://news.sophos.com/en-us/2019/04/18/protected-cve-2018-18500-heap-write-after-free-in-firefox-analysis-and-exploitation/)
+
+- [CVE-2019-9791: Type confusion](https://bugs.chromium.org/p/project-zero/issues/detail?id=1791)
+
+- [CVE-2019-9810, IonMonkey](https://doar-e.github.io/blog/2019/06/17/a-journey-into-ionmonkey-root-causing-cve-2019-9810/)
+
+- [CVE-2019-9813: Type confusion](https://www.exploit-db.com/exploits/46646)
+
+- [CVE-2019-11707: Type confusion](https://blog.bi0s.in/2019/08/18/Pwn/Browser-Exploitation/cve-2019-11707-writeup/)
 
 
 
