@@ -1,10 +1,11 @@
 # web-browser-vulnerabilities
 
-Steps for building old versions of Firefox: [:link:](Firefox/)
+## Steps for building old versions of Firefox: [:link:](Firefox/)
 
-Steps for building old versions of Chrome:
+## Steps for building old versions of Chrome:
 
 
+## Firefox vulnerabilities
 This is a list of vulnerabilities that is reproducible in old versions of Firefox :point_down:
 
 | CVE ID  | Version | Type | Exploited? | Link|
@@ -29,7 +30,8 @@ This is a list of vulnerabilities that is reproducible in old versions of Firefo
 Others to be verified: :point_right: [:link:](Firefox/others/)
 
 
-Vulnerabilities in Chrome:
+## Chrome vulnerabilities
+Vulnerabilities in Chrome :point_down:
 
 | CVE ID  | Version | Type | Exploited? | Link|
 | ---| --- | ---| ---| --- |
@@ -38,6 +40,35 @@ Vulnerabilities in Chrome:
 | CVE-2019-5786 | 72.0.3626.119 | UAF | | [:link:](Chrome/CVE-2019-5786)
 | CVE-2019-5808 | 74.0.3728.0 | UAF | | [:link:](Chrome/CVE-2019-5808)
 
-Useful links:
+
+## Useful links:
+
+## Firefox:
+
+### Basic
+
+- [Build configuration](https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Configuring_Build_Options)
+
+- [Hacking tips](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey/Hacking_Tips)
+
+- [Security Advisories (for finding vulnerabilities)](https://www.mozilla.org/en-US/security/known-vulnerabilities/firefox/)
+
+- [Online code browse](https://searchfox.org/mozilla-beta/source)
+
+### Tutorials
+
+- [Shadow over Firefox](http://www.phrack.org/issues/69/14.html)
+
+- [Jemalloc](https://medium.com/iskakaushik/eli5-jemalloc-e9bd412abd70)
+
+- [Jemalloc Exploitation](http://www.phrack.org/issues/68/10.html#article)
+
+- [Introduction to Spidermonkey exploitation](https://doar-e.github.io/blog/2018/11/19/introduction-to-spidermonkey-exploitation/)
+
+### Exploitation writeups
+- [CVE-2016-9066: cross-map overflow](https://saelo.github.io/posts/firefox-script-loader-overflow.html)
+
+
+
 
 Happy Hacking :trollface:
