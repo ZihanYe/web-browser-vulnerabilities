@@ -4,6 +4,8 @@
 
 [Run](#run)
 
+[Debug](#debug)
+
 ## Build
 
 ### Existing builds
@@ -111,7 +113,7 @@ check if there is ```system_bus_socket``` in ```/var/run/dbus/```, if not:
 and check again. ([:link:](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=444668))
 
 
-## Debug (Linux)
+## Debug
 
 :point_right: [tutorial](https://chromium.googlesource.com/chromium/src/+/81c0fc6d4/docs/linux_debugging.md)
 

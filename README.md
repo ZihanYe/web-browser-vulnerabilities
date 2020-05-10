@@ -2,7 +2,7 @@
 
 Steps for building old versions of Firefox: [:link:](Firefox/)
 
-Steps for building old versions of Chrome:
+Steps for building old versions of Chrome: [:link:](Chrome/)
 
 
 ## Firefox vulnerabilities
